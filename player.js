@@ -4,12 +4,12 @@ const { queueNames } = require("./commands/play");
 
 function initializePlayer(client) {
     const nodes = [
-          {
-            host: "lava-v4.ajieblogs.eu.org",
-            password: "https://dsc.gg/ajidevserver",
-            port: 443,
-            secure: true
-        },
+       {
+    Host : "37.114.42.191",
+    Port : 6767,
+    Password : "danteisnttaken",
+    Secure : false
+  },
     ];
 
     client.riffy = new Riffy(client, nodes, {
